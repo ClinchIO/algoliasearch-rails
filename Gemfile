@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem 'json', '>= 1.5.1'
-gem 'algoliasearch', '~> 1.2'
+gem 'algoliasearch', '~> 1.2', github: 'ClinchIO/algoliasearch-client-ruby'
 gem 'rubysl', '~> 2.0', :platform => :rbx
 
 group :test do 
